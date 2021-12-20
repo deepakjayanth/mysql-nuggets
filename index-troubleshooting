@@ -1,0 +1,14 @@
+# Check character set , collation of database, tables, columns under fix
+
+show full columns from <table_name>;
+
+show variables like 'collation';
+
+select @@character_set_database, @@collation_database;
+
+
+
+
+
+
+
